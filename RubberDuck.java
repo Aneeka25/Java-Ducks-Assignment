@@ -5,3 +5,5 @@ class RubberDuck extends Duck {
         quackBehavior = new Squeak();
         swimBehavior = new Float();
     }
+    void display() { System.out.println("I am a Rubber Duck"); }
+}
