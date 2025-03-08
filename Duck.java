@@ -8,5 +8,7 @@ abstract class Duck {
     void performQuack() { quackBehavior.quack(); }
     void performSwim() { swimBehavior.swim(); }
 
+    abstract void display();
+
 
     
