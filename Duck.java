@@ -10,5 +10,7 @@ abstract class Duck {
 
     abstract void display();
 
-
-    
+    void setFlyBehavior(FlyBehavior fb) { flyBehavior = fb; }
+    void setQuackBehavior(QuackBehavior qb) { quackBehavior = qb; }
+    void setSwimBehavior(SwimBehavior sb) { swimBehavior = sb; }
+}  
