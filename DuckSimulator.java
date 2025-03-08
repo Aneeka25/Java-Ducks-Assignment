@@ -23,3 +23,10 @@ public class DuckSimulator {
         rubber.performQuack();
         rubber.performSwim();
 
+        System.out.println("\n--- Decoy Duck ---");
+        decoy.display();
+        decoy.performFly();
+        decoy.performQuack();
+        decoy.performSwim();
+    }
+}
