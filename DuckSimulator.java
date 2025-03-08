@@ -4,3 +4,9 @@ public class DuckSimulator {
         Duck redhead = new RedheadDuck();
         Duck rubber = new RubberDuck();
         Duck decoy = new DecoyDuck();
+
+        System.out.println("--- Mallard Duck ---");
+        mallard.display();
+        mallard.performFly();
+        mallard.performQuack();
+        mallard.performSwim();
